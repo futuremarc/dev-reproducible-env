@@ -42,5 +42,5 @@ PATH=$(awk -F: '{for(i=1;i<=NF;i++){if(!($i in a)){a[$i];printf s$i;s=":"}}}' <<
 export PATH
 
 # add support for ctrl+o to open selected file in VS Code
-export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(${MAIN_EDITOR} {})+abort'"
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(${CODE_EDITOR} {})+abort'"
 export FZF_DEFAULT_COMMAND="fd --type f"

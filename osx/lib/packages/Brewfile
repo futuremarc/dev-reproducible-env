@@ -1,4 +1,4 @@
-tap "azure/functions"
+ tap "azure/functions"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
