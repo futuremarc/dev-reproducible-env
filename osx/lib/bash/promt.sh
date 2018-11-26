@@ -11,7 +11,7 @@ prompt() {
 
 	local EXIT="$?"
 
-	local prompt_symbol='λ'
+	local prompt_symbol='🚀 '
 	local tab_name='\W'
 
 	local reset='\[\e[0m\]'
